@@ -3,6 +3,7 @@ session_start();
 
 if (isset($_SESSION["username"])) {
     header("Location: ../pages/index.php");
+    echo "HI";
     exit();
 }
 
